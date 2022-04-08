@@ -149,7 +149,8 @@ meter::-webkit-meter-bar {
     background: none; 
     background-color: rgb(21, 30, 73);
     padding: 2px;
-   
+    ;
+    
 }
 
 /* @keyframes fadein {
@@ -162,6 +163,7 @@ meter::-webkit-meter-bar {
 meter::-webkit-meter-optimum-value{
     background-image: linear-gradient(to right,  hsl(6, 100%, 80%)  , hsl(335, 100%, 65%));
     border-radius: 20px;
+   
 } 
 
 .attribution {
@@ -285,6 +287,16 @@ meter::-webkit-meter-optimum-value{
 @media (max-width: 375px) {
     .files-unit{
         width: 92%;
+    }
+}
+@media (max-width: 400px) {
+    .files-unit{
+        width: 90%;
+    }
+}
+@media (max-width: 360px) {
+    .files-unit{
+        width: 96.5%;
     }
 }
 @media (max-width: 320px) {
